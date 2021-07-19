@@ -1,246 +1,246 @@
 const SHOP_DATA = {
-  hats: {
+  succulents: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Succulents',
+    routeName: 'succulents',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: "'Purple Pearl' Echeveria",
+        imageUrl: 'https://i.ibb.co/0Xwqx0v/succulent-1.png',
+        price: 10
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: "'ET Fingers' Crassula ovata",
+        imageUrl: 'https://i.ibb.co/cDBhsD0/succulent-2.png',
+        price: 12
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'Aloe Vera',
+        imageUrl: 'https://i.ibb.co/q0smDVK/succulent-3.png',
+        price: 15
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'Cactus',
+        imageUrl: 'https://i.ibb.co/HGNqL86/succulent-4.png',
+        price: 9
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'Cactus',
+        imageUrl: 'https://i.ibb.co/SJqxSpy/succulent-5.png',
+        price: 8
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Cactus',
+        imageUrl: 'https://i.ibb.co/Ph7Qw4Y/succulent-6.png',
+        price: 7
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'Aloe Vera',
+        imageUrl: 'https://i.ibb.co/G0QF8zQ/succulent-7.png',
+        price: 12
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        name: 'Pachyphytum oviferum',
+        imageUrl: 'https://i.ibb.co/d5Zt9Rf/succulent-8.png',
+        price: 12
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
+        name: 'Echeveria',
+        imageUrl: 'https://i.ibb.co/my81d9R/succulent-9.png',
+        price: 11
       }
     ]
   },
-  sneakers: {
+   "plant-bundles": {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Plant Bundles',
+    routeName: 'plant-bundles',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220
+        name: '2 Piece Succulent Set',
+        imageUrl: 'https://i.ibb.co/qB0VJmF/plant-bundle-1.png',
+        price: 20
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280
+        name: '2 Piece Bundle',
+        imageUrl: 'https://i.ibb.co/YysG2J6/plant-bundle-2.png',
+        price: 40
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110
+        name: '3 Piece Set',
+        imageUrl: 'https://i.ibb.co/CH743ST/plant-bundle-3.png',
+        price: 65
       },
       {
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160
+        name: '3 Piece Cacti Set',
+        imageUrl: 'https://i.ibb.co/KD6Phby/plant-bundle-4.png',
+        price: 89
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
-      },
-      {
-        id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160
-      },
-      {
-        id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190
-      },
-      {
-        id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        price: 200
-      }
-    ]
-  },
-  jackets: {
-    id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
-    items: [
-      {
-        id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
-      },
-      {
-        id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
-      },
-      {
-        id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
-      },
-      {
-        id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
-      },
-      {
-        id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
-      }
-    ]
-  },
-  womens: {
-    id: 4,
-    title: 'Womens',
-    routeName: 'womens',
-    items: [
-      {
-        id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-        price: 25
-      },
-      {
-        id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20
-      },
-      {
-        id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
-      },
-      {
-        id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
-      },
-      {
-        id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        name: '2 Piece Set',
+        imageUrl: 'https://i.ibb.co/n81GZWT/plant-bundle-5.png',
         price: 45
       },
       {
-        id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
+        id: 15,
+        name: '3 Piece Succulent Set',
+        imageUrl: 'https://i.ibb.co/Mk8md68/plant-bundle-8.png',
+        price: 27
       },
       {
-        id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
+        id: 16,
+        name: '2 Piece Herbs Set',
+        imageUrl: 'https://i.ibb.co/Qk83nLV/plant-bundle-7.png',
+        price: 15
+      },
+      {
+        id: 17,
+        name: '4 Piece Succulent Set',
+        imageUrl: 'https://i.ibb.co/W2rDZB9/plant-bundle-6.png',
+        price: 35
       }
     ]
   },
-  mens: {
+  herbs: {
+    id: 3,
+    title: 'Herbs',
+    routeName: 'herbs',
+    items: [
+      {
+        id: 18,
+        name: 'Rosemary',
+        imageUrl: 'https://i.ibb.co/9ghz3pM/herbs-1.png',
+        price: 5
+      },
+      {
+        id: 19,
+        name: 'Parsley',
+        imageUrl: 'https://i.ibb.co/K295nrG/herbs-2.png',
+        price: 5
+      },
+      {
+        id: 20,
+        name: 'Basil',
+        imageUrl: 'https://i.ibb.co/mH1YBzs/herbs-3.png',
+        price: 5
+      },
+      {
+        id: 21,
+        name: 'Thyme',
+        imageUrl: 'https://i.ibb.co/gzzMt5F/herbs-4.png',
+        price: 8
+      },
+      {
+        id: 22,
+        name: 'Mint',
+        imageUrl: 'https://i.ibb.co/9NKHvMw/herbs-5.png',
+        price: 5
+      }
+    ]
+  },
+  "all-plants": {
+    id: 4,
+    title: 'All Plants',
+    routeName: 'all-plants',
+    items: [
+      {
+        id: 23,
+        name: 'Monstera',
+        imageUrl: 'https://i.ibb.co/G3BxRmR/plants-1.png',
+        price: 32
+      },
+      {
+        id: 24,
+        name: 'Zamioculcas zamiifolia',
+        imageUrl: 'https://i.ibb.co/hscLKDW/plants-2.png',
+        price: 28
+      },
+      {
+        id: 25,
+        name: 'Scindapsus pictus',
+        imageUrl: 'https://i.ibb.co/QbMS6VB/plants-3.png',
+        price: 18
+      },
+      {
+        id: 26,
+        name: 'Ficus benjamina',
+        imageUrl: 'https://i.ibb.co/D54jHCQ/plants-4.png',
+        price: 30
+      },
+      {
+        id: 27,
+        name: "Ficus robusta 'Variegata'",
+        imageUrl: 'https://i.ibb.co/pLrCsVv/plants-5.png',
+        price: 35
+      },
+      {
+        id: 28,
+        name: "Sansevieria trifasciata",
+        imageUrl: 'https://i.ibb.co/nLX9WBt/plants-6.png',
+        price: 22
+      },
+      {
+        id: 29,
+        name: 'Philodendron squamiferum',
+        imageUrl: 'https://i.ibb.co/N1KtvY3/plants-7.png',
+        price: 29
+      }
+    ]
+  },
+  accessories: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Accessories',
+    routeName: 'accessories',
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        name: 'Owl Pot',
+        imageUrl: 'https://i.ibb.co/9ZPNgq1/accessories-2.png',
+        price: 17
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+        name: 'Pot with Floral Pattern',
+        imageUrl: 'https://i.ibb.co/6DyBhTB/accessories-1.png',
+        price: 13
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
+        name: 'Wooden Pot',
+        imageUrl: 'https://i.ibb.co/xz5XSjT/accessories-3.png',
+        price: 11
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        name: 'Large Terracotta Pot',
+        imageUrl: 'https://i.ibb.co/j8sf7S1/accessories-5.png',
         price: 25
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
+        name: 'Modern White Watering Can',
+        imageUrl: 'https://i.ibb.co/vkj3TcL/accessories-8.png',
+        price: 22
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25
+        name: 'Classic Copper Watering Can',
+        imageUrl: 'https://i.ibb.co/6RzQRGN/accessories-9.png',
+        price: 22
       }
     ]
   }

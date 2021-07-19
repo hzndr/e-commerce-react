@@ -1,34 +1,34 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import './header.styles.scss'
-import {ReactComponent as Logo} from '../../assets/crown.svg' 
+import {ReactComponent as Logo} from '../../assets/logo.svg'
 import {auth} from '../../firebase/firebase.utils'
 import {connect} from 'react-redux';
 import CartIcon from '../cart-icon/cart-icon.component'
-import CartDropdown from '../card-dropdown/card-dropdown.component'
+import CartDropdown from '../cart-dropdown/cart-dropdown.component'
 import {createStructuredSelector} from 'reselect'
 import {selectCartHidden} from '../../redux/cart/cart.selectors'
 import {selectCurrentUser} from '../../redux/user/user.selectors'
+import { HeaderContainer, LogoContainer, OptionsContainer, OptionDiv, OptionLink} from './header.styles'
 
-const Header = ({currentUser, hidden}) => (
-    <div className='header'>
-        <Link to='/' className='logo-container'>
-            <Logo className='logo'/>
-        </Link>
-        <div className="options">
-        <Link to="/shop" className='option'>SHOP</Link>
-        <Link to="/contact" className='option'>CONTACT</Link>
-        {currentUser ?
-        <div className="option" onClick={() => auth.signOut()}>SIGN OUT</div>
-        :
-        <Link className="option" to="/signin">SIGN IN</Link>
-        }
-        <CartIcon />
-        </div>
-        {hidden ? null : <CartDropdown /  >}
+const Header = ({ currentUser, hidden }) => (
+  <HeaderContainer>
+    <LogoContainer to="/">
+      <Logo className="logo" />
+    </LogoContainer>
     
-    </div>
-)
+    <OptionsContainer>
+    <OptionLink to="/">HOME</OptionLink>
+      <OptionLink to="/shop">SHOP</OptionLink>
+      <OptionLink to="/about">ABOUT</OptionLink>
+      {currentUser ? (
+        <OptionDiv onClick={() => auth.signOut()}>SIGN OUT</OptionDiv>
+      ) : (
+        <OptionLink to="/signin">SIGN IN</OptionLink>
+      )}
+      <CartIcon />
+    </OptionsContainer>
+    {hidden ? null : <CartDropdown />}
+  </HeaderContainer>
+);
 
 //Without selectors
 // const mapStateToProps = ({user: {currentUser}, cart: {hidden}}) => ({
